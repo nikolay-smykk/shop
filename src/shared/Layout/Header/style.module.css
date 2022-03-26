@@ -1,0 +1,41 @@
+.container {
+  background-color: #272727;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    flex-wrap: wrap;
+  }
+}
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.block span {
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.block_cart span {
+  font-size: 3rem;
+  color: white;
+  width: 25%;
+}
+.logo_name {
+  color: #7d7d7d;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  text-align: center;
+}
