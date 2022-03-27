@@ -16,7 +16,7 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 100%;
+  width: 50%;
 }
 .block span {
   color: white;
@@ -27,10 +27,15 @@
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
+.block_cart {
+  padding-right: 2rem;
+  width: 4rem;
+  color: white;
+  margin-right: 4rem;
+}
 .block_cart span {
   font-size: 3rem;
   color: white;
-  width: 25%;
 }
 .logo_name {
   color: #7d7d7d;

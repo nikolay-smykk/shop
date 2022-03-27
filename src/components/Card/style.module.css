@@ -1,4 +1,24 @@
 .wrapper {
   width: 100%;
-  background-color: purple;
+}
+.img {
+  width: 100%;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 15px;
+}
+.title {
+  color: #71767a;
+  transition: 0.5s;
+  font-size: 1.6rem;
+}
+.price {
+  font-size: 2rem;
+}
+.price::after {
+  content: ' руб.';
 }
