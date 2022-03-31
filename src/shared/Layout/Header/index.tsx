@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import style from './style.module.css';
 
@@ -8,9 +9,9 @@ export const Header = () => {
       <div className={style.logo_name}>MINIMALIZM STUDIO</div>
       <div className={style.wrapper}>
         <div className={style.block}>
-          <span>MINIMALIZM</span>
-          <span>Главная</span>
-          <span>О Нас</span>
+          <Link to={'./'}>MINIMALIZM</Link>
+          <Link to={'./auth'}>Главная</Link>
+          <Link to={'./cart'}>О Нас</Link>
         </div>
         <div className={style.block_cart}>
           <svg

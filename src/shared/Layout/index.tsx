@@ -10,7 +10,6 @@ interface PropsInterface {
 export const Layout: FunctionComponent<PropsInterface> = ({ children }) => {
   return (
     <>
-      <Header />
       <div className={style.wrapper}>{children}</div>
       <Footer />
     </>
