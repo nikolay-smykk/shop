@@ -1,6 +1,5 @@
 import React, { FunctionComponent, ReactChild, ReactFragment, ReactPortal } from 'react';
 import { Footer } from './Footer';
-import { Header } from './Header';
 import style from './style.module.css';
 
 interface PropsInterface {
